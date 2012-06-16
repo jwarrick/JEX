@@ -1,5 +1,7 @@
 /.git
+/.git/*
 .git
+.git/*
 /bin
 bin
 *.com
