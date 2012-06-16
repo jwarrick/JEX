@@ -29,7 +29,7 @@ public class Cruncher {
 	{
 		tickets = new Vector<Ticket>(0);
 		guiTasks = new Vector<Callable<Integer>>(0);
-		// Another testering one
+		// Another testering one or two
 	}
 	
 	public void runTicket(Ticket ticket)
