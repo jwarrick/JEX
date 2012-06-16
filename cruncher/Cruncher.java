@@ -25,10 +25,11 @@ public class Cruncher {
 	private ExecutorService multiFunctionQueue = Executors.newFixedThreadPool(5);
 	private ExecutorService singleFunctionQueue = Executors.newFixedThreadPool(1);
 	
-	public Cruncher(){
+	public Cruncher()
+	{
 		tickets = new Vector<Ticket>(0);
 		guiTasks = new Vector<Callable<Integer>>(0);
-		// I'm testing the commit and push process
+
 	}
 	
 	public void runTicket(Ticket ticket)
